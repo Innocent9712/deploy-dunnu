@@ -2,9 +2,9 @@ FROM ubuntu:22.04
 
 LABEL creator="innocent"
 
-RUN apt update and apt install curl
+RUN apt-get update && apt-get install curl
 RUN curl -fsSL https://deb.nodesource.com/setup_19.x | bash - &&\
-apt install -y nodejs
+apt-get install -y nodejs
 
 COPY . /app
 
