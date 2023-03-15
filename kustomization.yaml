@@ -3,5 +3,5 @@ kind: Kustomization
 
 resources:
 - deployment.yaml
+- postgres-deployment.yaml
 - ingress.yaml
-
