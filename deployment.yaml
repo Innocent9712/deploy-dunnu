@@ -35,7 +35,7 @@ metadata:
     prometheus.io/scrape: 'true'
 spec:
   selector:
-    app: my-app
+    app: dunnu-frontend
   ports:
     - port: 80
       targetPort: 5000
