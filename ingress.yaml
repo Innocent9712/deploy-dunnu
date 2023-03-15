@@ -24,4 +24,4 @@ spec:
               service:
                 name: dunnu-service
                 port:
-                  number: 5000
+                  number: 80
